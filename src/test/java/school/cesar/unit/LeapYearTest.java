@@ -12,7 +12,7 @@ public class LeapYearTest {
 
     @Test
     public void leapYear_NotDivisibleBy100_False() {
-        Assertions.assertFalse(LeapYear.isLeapYear(200));
+        Assertions.assertFalse(LeapYear.isLeapYear(201));
     }
 
     @Test
@@ -22,6 +22,6 @@ public class LeapYearTest {
 
     @Test
     public void leapYear_Else_False() {
-        Assertions.assertFalse(LeapYear.isLeapYear(2020));
+        Assertions.assertFalse(LeapYear.isLeapYear(2021));
     }
 }
